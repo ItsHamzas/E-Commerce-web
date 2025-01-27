@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+                  
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 766px) {
+    .container {
+      flex-direction: row; 
+    }
+  }
+
+
+                /* globals.css */
+@media (max-width: 766px) {
+    .header {
+      font-size: 1.2rem;
+    }
+    .container {
+      padding: 0.5rem;
+    }
+  }
+  
