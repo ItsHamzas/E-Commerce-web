@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
                                           //  all icon
-import { FaEnvelope, FaInstagram, FaGithub, FaLinkedin, FaStar, FaHandshake } from 'react-icons/fa'; 
+import { FaEnvelope, FaInstagram, FaGithub, FaLinkedin,  FaHandshake } from 'react-icons/fa'; 
 
 function CreatorPage() {
   return (
@@ -28,13 +28,12 @@ function CreatorPage() {
                 About the Creator
               </h1>
               <p className="mt-4 text-gray-600 leading-relaxed text-sm sm:text-base">
-                Hi, I’m <span className="font-semibold">Hamza </span>,  I’m passionate about technology and
+                Hi, I’m <span className="font-semibold">Hamza Asif </span>,  I’m passionate about technology and
                continuously learning to keep up with the ever-evolving landscape of programming languages, tools, and best practices. 
                 opportunities in <span className="font-semibold">Generative AI</span>, the <span className="font-semibold">Metaverse</span>, and <span className="font-semibold">Cloud Technologies</span>. I specialize in creating interactive and innovative web solutions while staying ahead of cutting-edge trends.
               </p>
               <p className="mt-4 text-gray-600 leading-relaxed text-sm sm:text-base">
-                {/* When I’m not coding, you’ll find me delving into new tech adventures, sharing ideas, or connecting with like-minded people to build
-                amazing projects. */}
+              
               </p>
             </div>
           </div>

@@ -1,6 +1,6 @@
 'use client';
 import Link from "next/link";
-import { FaEnvelope, FaPhoneAlt, FaUser, FaHeart, FaShoppingCart } from 'react-icons/fa';
+import { FaEnvelope, FaPhoneAlt, FaUser } from 'react-icons/fa';
 import { useState } from 'react';
 
 const TopBar = () => {

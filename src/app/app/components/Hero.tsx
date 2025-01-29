@@ -6,6 +6,11 @@ import { useRouter } from 'next/navigation';
 function Hero() {
   const router = useRouter();
 
+  
+  const handleNavigation = () => {
+    router.push('/shoplist'); 
+  };
+
   return (
     <div className="relative w-full bg-[#F3F3F3] overflow-hidden flex flex-col md:flex-row items-center justify-between">
 

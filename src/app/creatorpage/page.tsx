@@ -26,7 +26,7 @@ function CreatorPage() {
               <h1 className="text-4xl font-extrabold text-[#1D3178]">About the Developer</h1>
               <p className="mt-4 text-gray-600 text-lg leading-relaxed">
                 Hi, I’m <span className="font-bold text-[#FB2E86]">Hamza Asif</span>, passionate about
-                "Building the future with precision, creativity, and cutting-edge technology."
+                &quoteBuilding the future with precision, creativity, and cutting-edge technology.&quote
                 My expertise includes <span className="font-bold">Generative AI</span>, the <span className="font-bold">Metaverse</span>, and <span className="font-bold">Cloud Technologies</span>.
               </p>
               <p className="mt-4 text-gray-600 text-lg leading-relaxed">
